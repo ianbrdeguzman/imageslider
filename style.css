@@ -16,8 +16,25 @@
     box-sizing: border-box;
 }
 
-body, div {
-    background: #101010;
+body {
+    font-family: monospace;
+    background: #272727;
+}
+
+.links {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links p {
+    padding: 1rem 2rem;
+}
+
+.links p a{
+    color: black;
+    text-decoration: none;
 }
 
 .container {
